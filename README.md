@@ -47,16 +47,6 @@ cd task-bot
 pip install -r requirements.txt
 ```
 
-### 3. Create the `id.py` file
-Inside the root folder, create a file named `id.py` and add:
-```python
-from aiogram import Bot, Dispatcher
-
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-bot = Bot(token=TOKEN)
-dp = Dispatcher()
-```
-
 ### 4. Run the bot
 ```bash
 python main.py
